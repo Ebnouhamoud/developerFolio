@@ -3,6 +3,8 @@ import "./SoftwareSkill.css";
 import {skillsSection} from "../../portfolio";
 
 export default function SoftwareSkill() {
+  const data = ['JavaScript(ES6+)', 'Typescript', 'Node.js', 'Express', 'React', 'Redux', 'React Fiber', 'SQL',' NoSQL', 'Redis', 'CI/CD', 'RESTful APIs', 'Jest', 'Enzyme', 'Webpack', 'JWTs', 'Bcrypt','Cookies', 'jQuery', 'OOP and Functional Programing', 'HTTP/1.1 - HTTP/2', 'WebSocket/socket.io', 'CSS/SCSS', 'Docker', 'Kubernetes',' Nginx', 'Digital ocean', 'NATS',  'NATS streaming','Git', 'Agile', 'Scrum'];
+ 
   return (
     <div>
       <div className="software-skills-main-div">
@@ -20,7 +22,10 @@ export default function SoftwareSkill() {
             );
           })}
         </ul>
+
       </div>
     </div>
   );
 }
+
+

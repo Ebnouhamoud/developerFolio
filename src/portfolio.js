@@ -12,7 +12,7 @@ const greeting = {
   username: "Hamoud Ebnou",
   title: "Hi all, I'm Hamoud",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Express and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀  with 5 year of experience in building Web applications with JavaScript / Reactjs / Nodejs / Express and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -22,8 +22,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  github: "https://github.com/ebnouhamoud",
   gmail: "ebnou.hamoud1@gmail.com",
   gitlab: "https://gitlab.com/Ebnouhamoud",
   // Instagram and Twitter are also supported in the links!
@@ -37,18 +36,43 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Strong proficiency in developing Single Page Applications (SPAs) utilizing JavaScript including React and other cutting edge development technologies."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Profound experience in using Redux to manage the application state and applying middleware such as Redux-Promise and Redux-Thunk."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Proficiency in using React Router to tackle routes in SPAs through dynamic and component-based routing"
+    ),
+    emoji(
+      "⚡ Prior knowledge working with Web protocols and standards (HTTP HTML5/XHTML/XHTML MP, CSS3, Web Forms, XML, XML parsers)."
+    ),
+    emoji("⚡ Familiarity with the BEM naming strategy in using CSS to build easy to maintain, scalable, and reusable templates for web applications."),
+    emoji(
+      "⚡ Prior experience developing secured web applications by using client scripting such as JavaScript and jQuery along with the knowledge to deal with security challenges like XXS, CORS, and SQL injection."
+    ),
+    emoji(
+      "⚡ Professionalism working with the MERN tech stack (MongoDB, Express, React, Node.js)."
+    ),
+    emoji("⚡ Strong expertise in RESTful, SOAP web services to integrate between application to application."),
+    emoji(
+      "⚡ Profound understanding of the full life cycle of software development and abilities to handle every phase properly."
+    ),
+    emoji(
+      "⚡ Experience using test runners like Jest, Enzyme, Mocha, Chai for unit tests"
+    ),
+    emoji("⚡ Abilities to perform version control using appropriate tools such as Git, SVN for source code version management"),
+    emoji(
+      "⚡ Excellent communication and inter-personal skills while always being well organized and goal oriented."
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName:"Digital Ocean",
+      fontAwesomeClassname: "fab fa-digital-ocean"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -74,10 +98,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -86,20 +106,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -148,7 +164,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -160,33 +176,55 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Front-End Developer",
+      company: "NYSE",
+      project:"Continuous Evaluated Pricing Tool (CEPT)",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      date: "June 2022 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "The CEPT is part of the company’s electronic trading platform that helps clients adjust to changing dynamics by providing continuous, independent evaluated pricing to front, middle and back offices, extending the reach of fixed income end of day evaluations into intraday applications through establishing a premium access to timely updates. The CEPT also helps clients take advantage of pre-trade transparency, price discovery and idea generation, enhanced trading workflow to support ETF monitoring, trading and intraday internal crossing, post-trade best execution analysis, compliance and transaction cost analysis, support of intraday operational valuation processes and collateral, and real time risk and credit utilization monitoring. By using the CEPT, users can gain access to dynamic charts regarding trading workflow, real time risk and credit utilization, plus best execution analysis. ",
+      
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      company: "Pwc",
+      project:"Internal Firm Services Tools Suite",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "April 2018 - May 2020",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "The Internal Firm Services Tools Suite (IFSTS) supports the company’s core business functions by deploying applications that enable employees to work more efficiently and deliver the highest levels of service to clients. IFSTS enables teams to communicate business outcomes across the organization, allowing stakeholders to agree on a common set of objectives. Automatically update project financials with the actual time spent on each task. Managers can see teams’ start and finish dates, booking status, estimated time of completion, total allocations, and total actuals. It also creates a visual task list on the task boards. It provides users with their process flow, assigns staff to tasks, and prioritizes work. Keep all team members in sync and share plans with other groups and executives. IFSTS’s financial planning pages have been redesigned to mimic Microsoft Excel spreadsheets in both looks and feel. It provides one consolidated view of each employee’s project queue and their schedule. Managers explore staffing options with telescoping and pinning features that replace outdated filtering and matching tools.",
+      
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Front-End Developer",
+      company: "Deloitte Development, LLC",
+      project:"Controllership Project",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "February 2017 - March 2018",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+        "The Controllership Project is part of the Accounting and Internal Controls Portfolio that is built to help clients address issues and risks in accounting advisory services, financial reporting requirements, internal audit risk management, assurance needs, and internal controls services.  It provides clients and their teams direct access to valuable insights that can help organizations and leaders become more proficient, effective, and insightful are three keys to achieving world class controllership. The project consists of Controllership labs, P2P exchanges, Eminence/Learning tools, and provides a virtual and controlled environment for the entire team to hold meetings, live webcasts, send/receive newsletters, publish and manage blogs, compose, distribute, and analyze reports.",
+      
+    },
+    {
+      role: "Front-End Developer",
+      company: "Accruent",
+      project:"Space and Resource Management Platform",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "August 2016 - January 2017",
+      desc:
+        "Finding and reserving the right space or resources is critical for success in a work or learning environment and being able to track what people are using and how often they use it can change the way to manage other areas of your organization. Accruent’s room scheduling platform offers enterprise class management of workspaces, conferences, offices, classrooms, event spaces and more. The software helps to create a frictionless experience for browsing, booking and using the facilities, facilitates understanding of how people use and engage with the built environment so clients can make strategic decisions based on hard data. Increased visibility enhances clients’ decision-making clarity, spanning their IT, facilities and maintenance departments.",
+      
+    },
+    {
+      role: "ReactMonitor",
+      company: "Open Source",
+      // project:"Space and Resource Management Platform",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      // date: "August 2016 - January 2017",
+      desc:
+        "React Monitor is a dev tool that allows you to quickly visualize React's component tree performance for improved onboarding and debugging. By using the ReactMonitor Chrome DevTool, beginning and experienced developers alike are able to get a visual representation of an existing codebase that they are working on. Built with React, this tool will dynamically traverse the fiber root object behind the scenes, displaying state, props, render times and the type of components on the page.",
+      
+    },
   ]
 };
 
@@ -194,8 +232,9 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  Profile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true, // Set false to hide this section, defaults to true
+  showGithubProfile:true
 };
 
 // Some big projects you have worked on
@@ -353,9 +392,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    "To Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "504-556-2886",
+  email_address: "ebnou.hamoud1@gmail.com"
 };
 
 // Twitter Section

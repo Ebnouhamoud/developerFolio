@@ -12,32 +12,34 @@ export default function Profile() {
   function setProfileFunction(array) {
     setrepo(array);
   }
-
+  
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
         fetch("/profile.json")
-          .then(result => {
-            if (result.ok) {
-              return result.json();
-            }
-            console.error(result);
-          })
-          .then(response => {
-            setProfileFunction(response.data.user);
-          })
-          .catch(function (error) {
-            setProfileFunction("Error");
-            console.log(
-              "Because of this error, contact section has reverted to default"
-            );
-            console.error(error);
-            openSource.showGithubProfile = "false";
+        .then(result => {
+          if (result.ok) {
+            return result.json();
+          }
+          // console.error(result);
+        })
+        .then(response => {
+          setProfileFunction(response.data.user);
+        })
+        .catch(function (error) {
+
+          setProfileFunction("Error");
+          // console.log(
+          //   "Because of this error, contact section has reverted to default"
+          //   );
+            console.error('asdfasdfasdfasdfasdfdsaf');
+            openSource.showGithubProfile = "true";
           });
-      };
-      getProfileData();
-    }
-  }, []);
+        };
+        getProfileData();
+      }
+    }, []);
+    openSource.showGithubProfile = true
   if (
     openSource.display &&
     openSource.showGithubProfile === "true" &&

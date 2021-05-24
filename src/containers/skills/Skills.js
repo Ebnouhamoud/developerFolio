@@ -12,6 +12,7 @@ export default function Skills() {
   if (!skillsSection.display) {
     return null;
   }
+  
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
