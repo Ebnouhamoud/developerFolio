@@ -1,47 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4dc0b22d52269e3126b90051e899ea15",
+    "revision": "5e23536fe261efd8763313a41b048deb",
     "url": "/developerFolio/index.html"
   },
   {
-    "revision": "bfcc31732f43c341e60d",
+    "revision": "f49fdf2a1fb44a1a512d",
     "url": "/developerFolio/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "42b25d5c1fe2c13cc3f1",
+    "revision": "3a183d41e28c7befba11",
     "url": "/developerFolio/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "1118206919824298382d",
+    "revision": "8eddce55d432cb8e40db",
     "url": "/developerFolio/static/css/main.00e61ff2.chunk.css"
   },
   {
-    "revision": "0186ff1af151862481d4",
-    "url": "/developerFolio/static/js/2.22943b03.chunk.js"
+    "revision": "89907b10ce58ee36e738",
+    "url": "/developerFolio/static/js/2.57acc496.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/developerFolio/static/js/2.22943b03.chunk.js.LICENSE.txt"
+    "url": "/developerFolio/static/js/2.57acc496.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bfcc31732f43c341e60d",
-    "url": "/developerFolio/static/js/3.912f8df1.chunk.js"
+    "revision": "f49fdf2a1fb44a1a512d",
+    "url": "/developerFolio/static/js/3.b456488f.chunk.js"
   },
   {
-    "revision": "42b25d5c1fe2c13cc3f1",
-    "url": "/developerFolio/static/js/4.cd72f7d9.chunk.js"
+    "revision": "3a183d41e28c7befba11",
+    "url": "/developerFolio/static/js/4.545a03c6.chunk.js"
   },
   {
-    "revision": "1118206919824298382d",
-    "url": "/developerFolio/static/js/main.3db93514.chunk.js"
+    "revision": "8eddce55d432cb8e40db",
+    "url": "/developerFolio/static/js/main.02c911c3.chunk.js"
   },
   {
-    "revision": "e6714795c5958d38c88d",
-    "url": "/developerFolio/static/js/runtime-main.7c058f17.js"
+    "revision": "c949a63bbfbfdbec33da",
+    "url": "/developerFolio/static/js/runtime-main.33152dfc.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/developerFolio/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "8661035c86cc5201fe2b1a997b2fc4e9",
+    "url": "/developerFolio/static/media/Hamoud-Ebnou-Antra-pdf.8661035c.pdf"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",

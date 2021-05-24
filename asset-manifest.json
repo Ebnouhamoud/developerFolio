@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.00e61ff2.chunk.css",
-    "main.js": "/developerFolio/static/js/main.3db93514.chunk.js",
-    "main.js.map": "/developerFolio/static/js/main.3db93514.chunk.js.map",
-    "runtime-main.js": "/developerFolio/static/js/runtime-main.7c058f17.js",
-    "runtime-main.js.map": "/developerFolio/static/js/runtime-main.7c058f17.js.map",
-    "static/js/2.22943b03.chunk.js": "/developerFolio/static/js/2.22943b03.chunk.js",
-    "static/js/2.22943b03.chunk.js.map": "/developerFolio/static/js/2.22943b03.chunk.js.map",
+    "main.js": "/developerFolio/static/js/main.02c911c3.chunk.js",
+    "main.js.map": "/developerFolio/static/js/main.02c911c3.chunk.js.map",
+    "runtime-main.js": "/developerFolio/static/js/runtime-main.33152dfc.js",
+    "runtime-main.js.map": "/developerFolio/static/js/runtime-main.33152dfc.js.map",
+    "static/js/2.57acc496.chunk.js": "/developerFolio/static/js/2.57acc496.chunk.js",
+    "static/js/2.57acc496.chunk.js.map": "/developerFolio/static/js/2.57acc496.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/developerFolio/static/css/3.00373544.chunk.css",
-    "static/js/3.912f8df1.chunk.js": "/developerFolio/static/js/3.912f8df1.chunk.js",
-    "static/js/3.912f8df1.chunk.js.map": "/developerFolio/static/js/3.912f8df1.chunk.js.map",
+    "static/js/3.b456488f.chunk.js": "/developerFolio/static/js/3.b456488f.chunk.js",
+    "static/js/3.b456488f.chunk.js.map": "/developerFolio/static/js/3.b456488f.chunk.js.map",
     "static/css/4.3e7d09e6.chunk.css": "/developerFolio/static/css/4.3e7d09e6.chunk.css",
-    "static/js/4.cd72f7d9.chunk.js": "/developerFolio/static/js/4.cd72f7d9.chunk.js",
-    "static/js/4.cd72f7d9.chunk.js.map": "/developerFolio/static/js/4.cd72f7d9.chunk.js.map",
+    "static/js/4.545a03c6.chunk.js": "/developerFolio/static/js/4.545a03c6.chunk.js",
+    "static/js/4.545a03c6.chunk.js.map": "/developerFolio/static/js/4.545a03c6.chunk.js.map",
     "index.html": "/developerFolio/index.html",
-    "precache-manifest.bb28bd7658e60bcd34bbe2c0def16179.js": "/developerFolio/precache-manifest.bb28bd7658e60bcd34bbe2c0def16179.js",
+    "precache-manifest.70128bf9da99b83bde80ade22bdc0f1a.js": "/developerFolio/precache-manifest.70128bf9da99b83bde80ade22bdc0f1a.js",
     "service-worker.js": "/developerFolio/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/developerFolio/static/css/3.00373544.chunk.css.map",
     "static/css/4.3e7d09e6.chunk.css.map": "/developerFolio/static/css/4.3e7d09e6.chunk.css.map",
     "static/css/main.00e61ff2.chunk.css.map": "/developerFolio/static/css/main.00e61ff2.chunk.css.map",
-    "static/js/2.22943b03.chunk.js.LICENSE.txt": "/developerFolio/static/js/2.22943b03.chunk.js.LICENSE.txt",
+    "static/js/2.57acc496.chunk.js.LICENSE.txt": "/developerFolio/static/js/2.57acc496.chunk.js.LICENSE.txt",
     "static/media/index.css": "/developerFolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/Hamoud-Ebnou-Antra-pdf.pdf": "/developerFolio/static/media/Hamoud-Ebnou-Antra-pdf.8661035c.pdf",
     "static/media/codeInLogo.webp": "/developerFolio/static/media/codeInLogo.47a7a717.webp",
     "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.51cf7192.svg",
     "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.59389695.svg",
@@ -36,9 +37,9 @@
     "static/media/TalkCard.css": "/developerFolio/static/media/talksCardBack.13780cdd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c058f17.js",
-    "static/js/2.22943b03.chunk.js",
+    "static/js/runtime-main.33152dfc.js",
+    "static/js/2.57acc496.chunk.js",
     "static/css/main.00e61ff2.chunk.css",
-    "static/js/main.3db93514.chunk.js"
+    "static/js/main.02c911c3.chunk.js"
   ]
 }
